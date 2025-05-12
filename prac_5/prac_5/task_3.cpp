@@ -28,7 +28,6 @@ struct CompPers {
     }
 };
 
-// Функция для получения данных об абоненте с клавиатуры
 Person getPersonData() {
     string lastName, name;
     cout << "Enter last name: ";
@@ -38,7 +37,6 @@ Person getPersonData() {
     return Person(lastName, name);
 }
 
-// Функция для поиска и сбора информации об абонентах с заданным именем и фамилией
 vector<pair<Person, string>> findMatchingPersons(const multimap<Person, string, CompPers>& phoneBook, const Person& personToFind) {
     vector<pair<Person, string>> matches;
     for (const auto& entry : phoneBook) {
@@ -49,7 +47,6 @@ vector<pair<Person, string>> findMatchingPersons(const multimap<Person, string, 
     return matches;
 }
 
-// Функция для поиска и удаления конкретной записи
 void removeSpecificPerson(multimap<Person, string, CompPers>& phoneBook, const Person& personToRemove, const string& phoneNumber) {
     for (auto it = phoneBook.begin(); it != phoneBook.end();) {
         if (it->first.lastName == personToRemove.lastName &&
@@ -64,7 +61,6 @@ void removeSpecificPerson(multimap<Person, string, CompPers>& phoneBook, const P
     }
 }
 
-// Функция для получения нового номера телефона и добавления обновленной записи
 void updatePhoneNumber(multimap<Person, string, CompPers>& phoneBook, const Person& person, const string& oldPhoneNumber) {
     cout << "Current entry: ";
     person.display();
@@ -76,7 +72,6 @@ void updatePhoneNumber(multimap<Person, string, CompPers>& phoneBook, const Pers
     phoneBook.insert(make_pair(person, newPhoneNumber));
 }
 
-// Функция для вывода содержимого списка
 void displayPhoneBook(const multimap<Person, string, CompPers>& phoneBook) {
     cout << "Phone book contents: " << endl;
     for (const auto& entry : phoneBook) {
