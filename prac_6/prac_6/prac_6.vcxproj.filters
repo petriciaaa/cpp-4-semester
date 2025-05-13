@@ -38,7 +38,7 @@
     <ClCompile Include="printRect.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="task_3.cpp">
+    <ClCompile Include="task_4.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
