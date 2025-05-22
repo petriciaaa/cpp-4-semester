@@ -2,8 +2,13 @@
 // Включаемый файл, созданный в Microsoft Visual C++.
 // Используется prac_7.rc
 
-#define IDS_APP_TITLE			103
 
+#define IDS_APP_TITLE			103
+#define IDB_SPIDER 101
+#define IDM_LOAD     102
+#define IDM_CLEAR    103
+#define IDM_INVERT   104
+#define IDM_GRAYSCALE 105
 #define IDR_MAINFRAME			128
 #define IDD_PRAC7_DIALOG	102
 #define IDD_ABOUTBOX			103
@@ -12,6 +17,8 @@
 #define IDI_PRAC7			107
 #define IDI_SMALL				108
 #define IDC_PRAC7			109
+#define IDR_MENU        200
+
 #define IDC_MYICON				2
 #ifndef IDC_STATIC
 #define IDC_STATIC				-1

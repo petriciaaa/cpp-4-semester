@@ -1,0 +1,14 @@
+#include "resource.h"
+
+IDB_SPIDER BITMAP "spider.bmp"
+
+IDR_MENU MENU
+BEGIN
+    POPUP "Image"
+    BEGIN
+        MENUITEM "Load Image",    IDM_LOAD
+        MENUITEM "Clear",         IDM_CLEAR
+        MENUITEM "Invert Colors", IDM_INVERT
+        MENUITEM "Grayscale",     IDM_GRAYSCALE
+    END
+END

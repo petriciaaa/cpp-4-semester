@@ -129,18 +129,21 @@
   <ItemGroup>
     <ClInclude Include="framework.h" />
     <ClInclude Include="prac_7.h" />
+    <ClInclude Include="prac_spider.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="prac_7.rc" />
+    <ResourceCompile Include="resources.rc" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="C:\Users\petri\Downloads\spider.bmp" />
     <Image Include="prac_7.ico" />
     <Image Include="small.ico" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="task_3.cpp" />
+    <ClCompile Include="task_5.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -27,9 +27,15 @@
     <ClInclude Include="prac_7.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="prac_spider.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="prac_7.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="resources.rc">
       <Filter>Файлы ресурсов</Filter>
     </ResourceCompile>
   </ItemGroup>
@@ -40,9 +46,12 @@
     <Image Include="prac_7.ico">
       <Filter>Файлы ресурсов</Filter>
     </Image>
+    <Image Include="C:\Users\petri\Downloads\spider.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="task_3.cpp">
+    <ClCompile Include="task_5.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
